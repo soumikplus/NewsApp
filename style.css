@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #0F9D58 !important;
+}
+
+.navbar a,
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active{  /* Ensure active link is also white */
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd !important; /* Light gray on hover */
+}
+/* Change the toggler icon color to white */
+.navbar-toggler {
+    border-color: rgba(251, 248, 248, 0.5) !important;
+}
+
+/* Change the toggler icon (three bars) to white */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Change toggler hover color to grey */
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Remove focus outline (shadow) on toggle button click */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: #0F9D58 !important;  /* GFG Green */
+    border-color: #0F9D58 !important;      /* Matching border */
+}
+
+.btn-primary:hover {
+    background-color: #0c7c44 !important; /* Darker green on hover */
+    border-color: #0c7c44 !important;
+}
+
+.custom-search-btn {
+    color: white !important; /* White text */
+    border-color: white !important; /* White border */
+}
+
+.custom-search-btn:hover {
+    background-color: #d5ddd9 !important; /* White background on hover */
+    color: #0F9D58 !important; /* GFG Green text on hover */
+}
+
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
